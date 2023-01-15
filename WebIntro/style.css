@@ -1,2 +1,45 @@
-header{}
-body{}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"),
+      url(https://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff),
+      url(OpenSans.woff) format("woff");
+  }
+  
+.title{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.link{
+    color: rgb(78, 78, 239);
+}
+header{
+    background: rgb(200, 197, 197);
+    border-bottom: solid 3px #777;
+    padding-left:5px;
+
+}
+header>div{
+    max-width: 90ex;
+    padding: 2ex 10ex;
+    padding-bottom: 0;
+    margin-bottom: 1ex;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+main{
+    position: absolute;
+    left: 10;
+    top:130px;
+    line-height: 1.5;
+    margin: 2ex 10ex;
+    max-width: 80ex;
+}
+.date{
+    padding-right: 2ex;
+    color: #555;
+    white-space: nowrap;
+}
