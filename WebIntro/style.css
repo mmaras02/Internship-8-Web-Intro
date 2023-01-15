@@ -16,7 +16,7 @@
     color: rgb(78, 78, 239);
 }
 header{
-    background: rgb(200, 197, 197);
+    background: #ddd;
     border-bottom: solid 3px #777;
     padding-left:5px;
 
@@ -37,9 +37,18 @@ main{
     line-height: 1.5;
     margin: 2ex 10ex;
     max-width: 80ex;
+    font-size: medium;
 }
 .date{
     padding-right: 2ex;
     color: #555;
     white-space: nowrap;
 }
+footer{
+    font-style: italic;
+    margin-bottom: 8ex;
+}
+p {
+    margin-top: 0;
+    line-height: 1.5;
+  }

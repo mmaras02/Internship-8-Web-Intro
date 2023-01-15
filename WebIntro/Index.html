@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link>
     <title>Tech Notes:Two surprises in browser crashes</title>
 </head>
     
@@ -13,7 +12,7 @@
     <header>
         <div id="header">
             <h1>
-                <a class="title" href="https://neugierig.org/">neugierig.org</a>
+                <a class="title" href="neugierig.html">neugierig.org</a>
                 :
                 <a class="title" href="https://neugierig.org/software/blog/">Tech Notes</a>
             </h1>
@@ -38,8 +37,8 @@
             In particular for a page crash you no longer have a page or JS context
             to receive the event, so the API instead POSTs some JSON to a URL you
             provide. Per usual there were
-            <a class="link" href="https://developer.chrome.com/blog/reporting-api-migration/"
-              >two slightly incompatible versions of the API</a
+            <a class="link" href="https://developer.chrome.com/blog/reporting-api-migration/">
+            two slightly incompatible versions of the API</a
             >, I imagine as they attempted to standardize. (I do not know a lot
             about this space but it appears all of this is Chrome-only for now…)
         </p>
