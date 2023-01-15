@@ -10,10 +10,11 @@
 .title{
     color: black;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 2s;
 }
 .link{
     color: rgb(78, 78, 239);
+    text-decoration: underline;
 }
 header{
     background: #ddd;
@@ -43,6 +44,7 @@ main{
     padding-right: 2ex;
     color: #555;
     white-space: nowrap;
+    padding-left: 30px;
 }
 footer{
     font-style: italic;
@@ -52,3 +54,11 @@ p {
     margin-top: 0;
     line-height: 1.5;
   }
+.paragraph{
+    padding-left: 135px;
+    font-size: 16px;
+}
+
+.content{
+    padding-left: 55px;
+}
